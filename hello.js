@@ -3,3 +3,4 @@ function doublr(num){
 }
 
 //ctrl + -> shoe/hide terminal
+console.log((4,5));
