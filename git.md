@@ -2,12 +2,13 @@
 
 >> ctrl + -> shoe/hide terminal  
 
-$ git . --- adds all the files   
-$ git commit -m "start of my git fundamentals" -----create the commit stmt  
-$ git status   --- staged or not / tracked or not
-$ git log --- shows no of commits we have done and what time and msg was given   
+$ git . --- adds all the files 
+$ git commit -m "start of my git fundamentals" -----create the commit stmt
+$ git status 
+$ git log --- shows no of commits we have done and what time and msg was given 
 shows updated commits first  
-press q to quit wen its stuck   
+press q to quit when its stuck 
+$git checkout - (q)
  $ git checkout hashval -  (to get into the path of the perticular commit)    
  $ git checkout - (to back to the previous head pointing commit)    
  $ git checkout master  or $ git switch - (goes to master terminal/branch  )       
@@ -41,3 +42,10 @@ message - it shld state why the changes r done (what made code run / bug is remo
 
 
 >> ### to delete the commit  ---  $ git revert commitID
+
+ >> vim ---editor  
+ to enter ------$vim name of the file u want    
+ to quit ------:wq  
+ j-downwards   k-upwards L--right h--left ll
+
+ >> verb + number +movement
