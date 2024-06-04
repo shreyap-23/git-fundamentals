@@ -113,4 +113,17 @@ Vim is an editor which will only open in git bash command line
     - Delete characters till a particular char - d + char(ex:a,b,c)
 6. Save - w
 7. Exit - q
-8. To repeat recent command - .
+8. forcefully quit -q!
+9. To repeat recent command - .
+10. yank (copy)  
+## Git Cheat Sheet  
+https://docs.google.com/presentation/d/1Za5LTulMB0whRkrvOF2zbQWRdcPR02j8AlwgQQctQPQ/edit?usp=sharing
+
+![vim](vim.png)  
+
+git branch dev (create branch )
+#### types of merge 
+- merge commit   (it automatically merges and commit a new branch )  
+- fast merge (when there r no commits in staging or master where its getting merge )  
+
+![merge](merge.png)
