@@ -1,4 +1,5 @@
-function ToUppercase(namesString) {
+function transformNamesToToUppercase(namesString) {
+
   // Split the input string into an array of names
   const names = namesString.split(",");
 
@@ -12,5 +13,5 @@ function ToUppercase(namesString) {
 }
 
 const input = "john, jane, bob";
-const output = ToUppercase(input);
+const output = transformNamesToUppercase(input);
 console.log(output); // Output: JOHN, JANE, BOB
