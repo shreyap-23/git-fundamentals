@@ -13,4 +13,6 @@ function ToUppercase(namesString) {
 
 const input = "john, jane, bob";
 const output = ToUppercase(input);
-console.log(output); // Output: JOHN, JANE, BOB
+console.log("the out put is:");
+console.log(output); // Output: JOHN, JANE, bob
+console.log(output);

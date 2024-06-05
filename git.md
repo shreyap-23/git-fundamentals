@@ -76,6 +76,7 @@ To exit from git log press 'q'
 9. git clone url ----to clone the git repository.
 11. git pull --- pulls what all chnages done in online to offline
 12. pit push --- pushes offline to online.
+13. git rebase --abort (moves to the first step undo the rebase)
  
 ### Git Log
 1. git log -> to see commits
