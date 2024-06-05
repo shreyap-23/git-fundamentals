@@ -1,4 +1,4 @@
-#GIT FUNDAMENTALS
+# GIT FUNDAMENTALS
 
 >> ctrl + -> shoe/hide terminal  
 
@@ -38,8 +38,9 @@ commit----
 - code shld work" always commit wen everything is working"
 message - it shld state why the changes r done (what made code run / bug is removed )  
 
->> ### to unstage ---  $ git reset
->> ### to delete the changes --- $ git checkout - .
+> ### to unstage ---  $ git reset 
+
+>### to delete the changes --- $ git checkout - .
 
 
 >> ### to delete the commit  ---  $ git revert commitID
@@ -70,7 +71,11 @@ To exit from git log press 'q'
 6. git checkout hashvalue - to jump to particular commit
 7. git checkout - --> it brings back to the previous head pointing commit
 8. git switch - -> Switch to the master branch
-8. git checkout master -> To bring back to recent commit
+8. git checkout master -> To bring back to recent commit  
+9. git branch --a/--all --> to see all the branches.
+9. git clone url ----to clone the git repository.
+11. git pull --- pulls what all chnages done in online to offline
+12. pit push --- pushes offline to online.
  
 ### Git Log
 1. git log -> to see commits
@@ -127,3 +132,18 @@ git branch dev (create branch )
 - fast merge (when there r no commits in staging or master where its getting merge )  
 
 ![merge](merge.png)
+
+> GIT   
+what-it is a software (version control system )
+WHY--- saving data offline
+how-copy 
+who-  
+
+![ahead/behind](behind.png)
+ahead-------->commits which are not done in main or not available  
+behind----> commits which are present in main not in branch 
+  
+
+Semantic version (sem ver)--->12.0.1
+![semantic version](semver.png)
+# Merging with github
