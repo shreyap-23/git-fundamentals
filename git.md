@@ -140,6 +140,15 @@ WHY--- saving data offline
 how-copy 
 who-  
 
+we merge online to review the code (make merge online )
+pull req - merge oline 
+- dev branch needs to commit(feat branch ) and push online 
+- create pull request feat branch to dev and add description , add reviewer. 
+- reviewer will check and comments if the codequality is not good and then the dev will make changes and pushes it back adding comments.
+- we need mark it as resolved and then the reviewer will check and approves the changes .
+- we can merge feat with dev branch .  
+- devops will merge to the master / main .(there will be no local merge )
+
 ![ahead/behind](behind.png)
 ahead-------->commits which are not done in main or not available  
 behind----> commits which are present in main not in branch 
@@ -148,3 +157,73 @@ behind----> commits which are present in main not in branch
 Semantic version (sem ver)--->12.0.1
 ![semantic version](semver.png)
 # Merging with github
+### stash - finsh the unfinished work and then continue with the work
+### git rebase - keeping history in a straight line 
+>how - we need to do fast forward merge but not possible all the time so , it is in straight line bz its  easy to find the bug.
+
+$ git rebase -i HEAD~4(4 is no of commits )
+
+### squash dropping revert
+-  edit (changes can be done in what we changed and commited)
+
+hot fix
+git pull --rebase branchname (updates made in dev comes to feat)
+- to delete the branch -->git branch -D origin dev
+
+# KEY TERMS:
+these are used with bussiness ppl not the dev.
+### configuration management :
+
+- CI- configuration items------>
+### (maintain files)
+git files related to relese manag   ----->branching strategrys. -->master 
+- audits: 
+1. commits:signing
+2. git blame: used in audits , the audits will get to know what all commits are made ,by whome ,at what time they will check .
+3. git diff
+
+- baseline : save points(assigns that from that point we are secure )
+1. commits 
+2. Tags 
+
+- accounting: responsiblity for the code 
+1. git log -->find who did what
+2. git blame (who did what)
+
+- change management : (maintain a proces how efficiently we can bring changes inside the sys )
+1. branches 
+2. creating PR (pullreq)*
+
+## key benifits :
+- easy traceability - who ?--dev why?--bug or code  
+- code quality & consistency - (by pr we maintain)
+- reduces risk & errors - backup of code
+- change management -- it is smooth 
+
+![release](release terms.png)
+
+![release](image-4.png)
+
+1. planning 
+- branching strategy 
+
+2. governance 
+ - access level each branch (staging can be accessed by qa)
+
+3. scheduling
+- sprints
+- agile
+
+4. automation 
+- ci/cd (continuoes integration continuoes deployment)
+- no human error
+  
+5. contingency (backups)
+- rollback - old ver 
+
+
+paas <--- release code
+
+![CI/CD](image-6.png)
+git hub to netlify its CI   
+Build to customer its CD 
