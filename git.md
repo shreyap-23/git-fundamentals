@@ -1,4 +1,12 @@
 # GIT FUNDAMENTALS
+>>Linus torvalds   
+the creator and lead developer of the Linux kernel. He also created the distributed version control system Git.    
+
+### GIT--version control system.  
+  (maintains versions)  
+tracks the changes in the source code 
+
+open_.(folders cmd)--opens vscode  
 
 >> ctrl + -> shoe/hide terminal  
 
@@ -91,6 +99,9 @@ Filters
     - `<space>` - Page down
     - `n` - Next match
     - `N` - Prev match
+6. git revert ---> undo the commit
+7. git reset --soft HEAT~1 -->delte the commit but changes r remained
+8. git reset hard ------->delete the commit and changes from the sys.
 ### COMMIT
 1. Why Commit is needed?
     - When there is logical change
@@ -166,7 +177,7 @@ $ git rebase -i HEAD~4(4 is no of commits )
 ### squash dropping revert
 -  edit (changes can be done in what we changed and commited)
 
-hot fix
+hot fix- P0 bug is raised n need to be solved at that time.
 git pull --rebase branchname (updates made in dev comes to feat)
 - to delete the branch -->git branch -D origin dev
 
@@ -223,7 +234,28 @@ git files related to relese manag   ----->branching strategrys. -->master
 
 
 paas <--- release code
-
+SAAS - Software as a Service.
+ex: netflix
+- PAAS- Platform as a service
+- which are there to build the apps , they provide an environment to build the apps.
+- All the installation is done previously.
+ex: netlify, render, railway,heronku
+- IAAS- it's like renting the house without any OS installed
+    - ex: azure,aws,gcp
+    - we just rent the computer and we can install anything we want.
+    
 ![CI/CD](image-6.png)
 git hub to netlify its CI   
-Build to customer its CD 
+Build to customer its CD   
+
+# what is CI/CD?
+- continuous integration and continuous deployment
+- when there are changes and pull request is requested to the master branch, the DevOps will merge to the master.
+- Lets say netlify for example when there is change in the master it knows that there is change and then build system is started like
+   - comments, extra spaces are removed.  
+   - variables are shortened
+> - this is known as Uglifying (improve the performance.)
+- once done it should run the automation tests, if it fails the stop.
+- if yes then it gets to customer.
+has context menu
+
