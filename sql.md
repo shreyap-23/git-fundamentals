@@ -480,4 +480,5 @@ select format( getdate(), 'dd MMM yyyy' )
 --5.datePart--extract the perticular part from the date .
 select datepart(month, getdate() )
 ~~~
-
+# co -related query
+refer outside querie into inside query
